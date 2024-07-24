@@ -13,9 +13,14 @@
 
 name: Build OpenWrt D2
 
+
+
 on:
-  workflow_dispatch: 
-  repository_dispatch: 
+  repository_dispatch:
+  workflow_dispatch:
+# on: 
+#   workflow_dispatch: 
+#   repository_dispatch: 
 #  release:
 #    types: published
 #  push:
