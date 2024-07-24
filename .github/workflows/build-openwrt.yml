@@ -14,7 +14,8 @@
 name: Build OpenWrt D2
 
 on:
-  repository_dispatch:
+  workflow_dispatch: 
+  repository_dispatch: 
 #  release:
 #    types: published
 #  push:
@@ -22,8 +23,8 @@ on:
 #      - master
 #    paths:
 #      - 'config/Lean_LEDE_d2.config'
-  schedule:
-    - cron: 5 16 */25 * *
+  # schedule:
+  #   - cron: 5 16 */25 * * 
 #          分 时 日 月 周5
 #   - cron: 0 8 */3 * *
 #  watch:
